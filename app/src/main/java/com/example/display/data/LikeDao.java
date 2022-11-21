@@ -7,8 +7,6 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import static androidx.room.OnConflictStrategy.REPLACE;
-
 @Dao
 public interface LikeDao {
     @Insert
